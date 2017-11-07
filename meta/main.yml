@@ -1,0 +1,24 @@
+---
+galaxy_info:
+  author: Ray Ploski
+  description: AMQ 7 replicated high availability feature to avoid using a shared store.
+  company: Red Hat
+
+  video_links:
+  - url: https://youtu.be/utJ1k0_WUe0?t=6s
+    title: Happy Birthday!
+
+  license: AFL v3.0
+  min_ansible_version: 1.8
+  platforms:
+  - name: Java
+    versions:
+    - 1.6
+    - 1.7
+#- Categories are really tags within Galaxy
+  categories:
+  - middleware
+  - AMQ
+  - messaging
+dependencies: []
+allow_duplicates: yes
